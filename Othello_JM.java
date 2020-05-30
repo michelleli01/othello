@@ -5,9 +5,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
-
 import java.util.*;
-
 
 public class Othello_JM extends JFrame implements ActionListener{
 

@@ -136,7 +136,6 @@ public class Othello_JM extends JFrame implements ActionListener{
 		}	
 
 
-		//this will draw the image (piece or green background).  You will never call this method
 		public void paintComponent(Graphics g){
 			super.paintComponent(g);
 
@@ -152,7 +151,6 @@ public class Othello_JM extends JFrame implements ActionListener{
 
 		}
 
-		//add code here to react to the user clicking on the panel
 		public void mouseClicked(MouseEvent arg0) {
 
 			ArrayList<PicPanel> enemies = new ArrayList<PicPanel>();
